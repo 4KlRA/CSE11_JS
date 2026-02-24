@@ -1,8 +1,10 @@
+//Lec 1 20 02 2026
 console.log("Hello World!");
 document.write("This is a test of document.write()");
 // single line comment
 /*Mutli line comment*/
 
+//Lec 2 24 02 2026 8:40
 var num = 10;
 console.log(num);
 console.log(typeof(num));
@@ -39,3 +41,22 @@ var person = {
 }
 console.log(person);
 console.log(typeof(person));
+
+//Lec 3 24 02 2026 9:40
+const sync1 = Symbol(4);
+const sync2 = Symbol(4);
+console.log(sync1);
+console.log(sync2);
+if (sync1 === sync2) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+var count;
+document.write{"Starting Loop"+"<br>"};
+for(count = 0, count<10, count++) {
+    document.write("Current Count:", count);
+    document.write("<br>");
+}
+document.write("Loop Stopped!");
