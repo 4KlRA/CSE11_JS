@@ -106,3 +106,55 @@ function  myFunction() {
 function SayHello(name,age) {
     document.write(name + " is " + age + " years old!"+"<br>");
 }
+
+//Lec 5 10 03 2026 8:50
+// arrow function
+// It is an anonymous function and change thw way this binding works
+const add = (a,b) => {
+    return a + b;
+}
+add(10, 20);
+
+//object
+var person = {
+    name: "John Mac",
+    age: 30,
+    isMarried: false,
+    address: [
+        Street = "Vinay Nagar",
+        flatNO = 201
+    ]
+}
+console.log(person);
+
+var person2 = new Object();
+person2.name = "krishnkant";
+person2.age = 32;
+person2.isMarried = true;
+person2.address = {}
+persom2[address][Street] = "Vinay Nagar",
+person2.address.flatNO = 201;
+
+//ARRAY
+//Array is an ordered collection of data either primitive or objects
+var myInfo = new Array();
+var myInfo1 = Array();
+console.log(myInfo, myInfo1);
+
+let collection = {
+    {},
+    [],
+    true,
+    "john",
+    10,
+    function(){},
+    undefined,
+    null,
+    new stringify("abc"),
+    new Date(),
+}
+console.log(collection);
+collection.teacherName = "Sanjeev Sooni";
+collection.phoneNO = 1234567890;
+console.log(collection);
+
