@@ -158,3 +158,12 @@ collection.teacherName = "Sanjeev Sooni";
 collection.phoneNO = 1234567890;
 console.log(collection);
 
+var trainerinfo = ["Jitendr", 29, "Ghaziabad", { isMarried: true }];
+console.log(trainerinfo.length());
+trainerinfo.contact = 9971660499;
+console.log(trainerinfo);
+trainerinfo[0] = "Jitendra Kumar Chauhan"; //Updating the value of index 0
+console.log(trainerinfo);
+
+//Lec 6 10 03 2026 9:40
+//Document object is a property of the window object and it represents the HTML document that is currently loaded in the browser
