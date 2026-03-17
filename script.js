@@ -141,7 +141,7 @@ var myInfo = new Array();
 var myInfo1 = Array();
 console.log(myInfo, myInfo1);
 
-let collection = {
+let collection = [
     {},
     [],
     true,
@@ -150,9 +150,9 @@ let collection = {
     function(){},
     undefined,
     null,
-    new stringify("abc"),
+    new String("abc"),
     new Date(),
-}
+];
 console.log(collection);
 collection.teacherName = "Sanjeev Sooni";
 collection.phoneNO = 1234567890;
