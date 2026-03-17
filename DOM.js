@@ -89,3 +89,10 @@ function onMouseUp() {
 function onMouseMove() {
     alert("Mouse Move");
 }
+
+//Keyboard Events - onkeydown, onkeyup,
+//Form Events - onfocus, onsubmit, onblur, onchange
+//Window Events - onload, onunload, onresize
+function onLoad() {
+    alert("Page Loaded Successfully");
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSE11 JavaScript Lab</title>
 </head>
-<body>
+<body onload="onLoad()">
     <button onclick="myFunction()">Click Me!</button>
     <br>
     <input type="button" onclick="SayHello('Zara', 25)" value="Say Hello">
@@ -16,13 +16,13 @@
     <p class="p1">Paragraph 3</p>
     <p id="demo"> Blah BLAH</p>
     <button onclick="updateParagraphs()">Update Paragraphs</button> <br>
-    <br> 
     <button onclick="onClick()">ON Click</button>
     <button onmouseover="onMouseOver()">ON Mouse Over</button>
     <button onmouseout="onMouseOut()">ON Mouse Out</button>
     <button onmousedown="onMouseDown()">ON Mouse Down</button>
     <button onmouseup="onMouseUp()">ON Mouse Up</button>
-    <button onmousemove="onMouseMove()">ON Mouse Move</button>   
+    <button onmousemove="onMouseMove()">ON Mouse Move</button>  
+    <br> 
     <script src="./script.js"></script>
     <script src="./DOM.js"></script>
 </body>
