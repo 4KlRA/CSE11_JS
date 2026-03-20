@@ -96,3 +96,4 @@ function onMouseMove() {
 function onLoad() {
     alert("Page Loaded Successfully");
 }
+ //Lec 9 17 03 2026 9:40

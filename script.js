@@ -167,3 +167,26 @@ console.log(trainerinfo);
 
 //Lec 6 10 03 2026 9:40
 //Document object is a property of the window object and it represents the HTML document that is currently loaded in the browser
+
+//Lec 9 17 03 2026 9:40
+//for in Loopp
+for (x in collection) {
+    console.log(x);
+}
+
+//for of Loop
+for (x of collection) {
+    console.log(x);
+}
+
+//forEach Loop
+collection.forEach((element) => {
+    console.log(element);
+});
+
+//higher order function - a function that takes another function as an argument or returns a function as a result
+function higherOrderFunction(callback) {
+    console.log("This is a higher order function");
+    callback();    
+}
+
